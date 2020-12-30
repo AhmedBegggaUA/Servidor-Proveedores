@@ -1,0 +1,38 @@
+
+
+<div class="col-md-4 mx-auto">
+    <div class="card">
+        <div class="card-header">
+            <h3>Selecione los datos de su viaje</h3>
+        </div>
+        <div class="card-body">
+            <form action="/notes/new-notes" method="POST">
+                <div class="form-group">
+                    <input type="text" name="paisOrigen" calss="form-control" placeholder="Pais de origen" autofocus>
+                    
+                </div>
+                <div class="form-group">
+                    <input type="text" name="paisDestino" calss="form-control" placeholder="Pais destino" autofocus>
+                    
+                </div>
+                 <div class="form-group">
+                    <input type="text" name="fechaSalida" calss="form-control" placeholder="Fecha de salida" autofocus>
+                    
+                </div>
+                 <div class="form-group">
+                    <input type="text" name="dias" calss="form-control" placeholder="Dias de estancia" autofocus>
+                    
+                </div>
+                
+                <div class="form-group">
+                    <textarea name="description" class="form-control" placeholder="Otras cosas"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-block" type="submit">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>  
